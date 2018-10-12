@@ -1,11 +1,12 @@
-<?if($_POST[submit]=='submit'){
+<?php
+if($_POST[submit]=='submit'){
 $name=$_POST[name];
 $email=$_POST[email];
 $phon=$_POST[phon];
 $message=$_POST[msg];
 $emailSubject = 'Enquiry Now';
 
-$mailto ='ravi01989@yahoo.com';
+$mailto ='hbhardwaj185@gmail.com';
 $ip = $_SERVER['REMOTE_ADDR']; 
 $body = <<<EOD
 <br><hr><br>
