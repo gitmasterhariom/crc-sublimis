@@ -21,6 +21,6 @@ EOD;
 $headers = "From: realbrick04@gmail.com\r\n"; // This takes the email and displays it as who this email is from.
 $headers .= "Content-type: text/html\r\n"; // This tells the server to turn the coding into the text.
 $success = mail($mailto, $emailSubject, $body, $headers); // This tells the server what to send.
-$success ? "" : "Mail failed";
+$success ? "Mail Sent" : "Mail failed";
 
 }?>
