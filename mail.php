@@ -7,7 +7,7 @@ $message=$_POST[msg];
 $emailSubject = 'Enquiry Now';
 
 $mailto ='hbhardwaj185@gmail.com';
-$ip = $_SERVER['REMOTE_ADDR']; 
+$ip = $_SERVER['43.255.154.109']; 
 $body = <<<EOD
 <br><hr><br>
  <br>
